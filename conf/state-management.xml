@@ -37,7 +37,7 @@
     <cluster-provider>
         <id>zk-provider</id>
         <class>org.apache.nifi.controller.state.providers.zookeeper.ZooKeeperStateProvider</class>
-        <property name="Connect String">ip-172-50-0-36.ec2.internal:2181,ip-172-50-0-136.ec2.internal:2181,ip-172-50-0-156.ec2.internal:2181</property>
+        <property name="Connect String">host-1.full.domain:2181,host-2.full.domain:2181,host-3.full.domain:2181</property>
         <property name="Root Node">/nifi</property>
         <property name="Session Timeout">10 seconds</property>
         <property name="Access Control">Open</property>
